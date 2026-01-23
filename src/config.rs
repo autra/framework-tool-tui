@@ -19,7 +19,7 @@ fn default_tick_interval() -> u64 {
 impl Default for Config {
     fn default() -> Self {
         Self {
-            theme: ThemeVariant::Default,
+            theme: ThemeVariant::Ansi,
             tick_interval_ms: 1000,
         }
     }
